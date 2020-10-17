@@ -15,5 +15,5 @@ script:
   - flake8 .
   - coverage run --source=polls manage.py test
 
-  after_script:
+after_script:
     - coveralls
